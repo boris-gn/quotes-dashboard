@@ -1,0 +1,1265 @@
+{
+	"quotes": [
+		{
+			"quoteId": "09876",
+			"type": "Vehicle",
+			"personalDetails": {
+				"customerId": "CUST-34256",
+				"fullName": "Theresa Heidenreich",
+				"gender": "Female",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Marketing Manager",
+				"contactInformation": {
+					"mobilePhone": "+1 123 456 7890",
+					"homePhone": "+1 123 456 7890",
+					"email": "Theresa@email.com",
+					"address": "6470 Koepp Street, South Hillary 72456-8817"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Comprehensive Auto Insurance",
+				"policyDescription": "Provides full coverage including rental cars",
+				"coverageAmount": "$50,000",
+				"deductible": "$500"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20231011-002",
+					"type": "Health Insurance",
+					"status": "Active"
+				},
+				{
+					"policyId": "P-20230905-001",
+					"type": "Home Insurance",
+					"status": "Expired"
+				}
+			],
+			"quoteStatus": "Pending",
+			"quoteBreakdown": {
+				"premiumAmount": "$120 per month",
+				"annualPremium": "$1,400",
+				"discounts": [
+					{ "type": "Safe Driver Discount", "amount": "-$50" },
+					{ "type": "Multi-Policy Discount", "amount": "-$30" }
+				],
+				"totalCharges": "$1,320",
+				"tax": "$20",
+				"finalPremium": "$1,340"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-10-15",
+				"expirationDate": "2025-10-14"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Auto Insurance Terms.pdf",
+					"proof": "Customer ID.pdf",
+					"reg": "Registration Document.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "20-10-2023",
+					"description": "Requested quote update to add rental car coverage."
+				},
+				{
+					"date": "18-10-2023",
+					"description": "Broker followed up for confirmation."
+				},
+				{
+					"date": "15-10-2023",
+					"description": "Quote updated to 'Pending Approval.'"
+				}
+			]
+		},
+		{
+			"quoteId": "09875",
+			"type": "Business",
+			"personalDetails": {
+				"customerId": "CUST-17891",
+				"fullName": "Robert Willington",
+				"gender": "Male",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Software Engineer",
+				"contactInformation": {
+					"mobilePhone": "+1 987 654 3210",
+					"homePhone": "+1 987 654 3210",
+					"email": "robert@email.com",
+					"address": "123 Elm Street, Tech City, 90210"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Term Life Insurance",
+				"policyDescription": "Covers life-related risks and provides financial stability",
+				"coverageAmount": "$100,000",
+				"deductible": "$800"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20220705-001",
+					"type": "Auto Insurance",
+					"status": "Expired"
+				}
+			],
+			"quoteStatus": "Approved",
+			"quoteBreakdown": {
+				"premiumAmount": "$250 per month",
+				"annualPremium": "$3,000",
+				"discounts": [
+					{ "type": "Early Renewal Discount", "amount": "-$150" }
+				],
+				"totalCharges": "$2,850",
+				"tax": "$30",
+				"finalPremium": "$2,880"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-05-01",
+				"expirationDate": "2025-04-30"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Life Insurance Policy Terms.pdf",
+					"proof": "ID Proof.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "10-04-2023",
+					"description": "Initial quote submitted for review."
+				},
+				{
+					"date": "12-04-2023",
+					"description": "Broker approved the quote and notified the client."
+				}
+			]
+		},
+		{
+			"quoteId": "09874",
+			"type": "House",
+			"personalDetails": {
+				"customerId": "CUST-56789",
+				"fullName": "Sophia Martinez",
+				"gender": "Female",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Architect",
+				"contactInformation": {
+					"mobilePhone": "+1 456 789 0123",
+					"homePhone": "+1 456 789 0123",
+					"email": "sophia@email.com",
+					"address": "456 Pine Lane, Designville, 87654"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Property Insurance",
+				"policyDescription": "Covers property damage and liability",
+				"coverageAmount": "$250,000",
+				"deductible": "$1,500"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20231011-001",
+					"type": "Auto Insurance",
+					"status": "Active"
+				}
+			],
+			"quoteStatus": "Expired",
+			"quoteBreakdown": {
+				"premiumAmount": "$300 per month",
+				"annualPremium": "$3,600",
+				"discounts": [
+					{ "type": "Loyalty Discount", "amount": "-$200" }
+				],
+				"totalCharges": "$3,400",
+				"tax": "$40",
+				"finalPremium": "$3,440"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-11-01",
+				"expirationDate": "2025-10-31"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Property Insurance Terms.pdf",
+					"proof": "Ownership Documents.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "01-03-2023",
+					"description": "Customer requested a detailed breakdown of property insurance."
+				}
+			]
+		},
+		{
+			"quoteId": "09873",
+			"type": "Travel",
+			"personalDetails": {
+				"customerId": "CUST-56789",
+				"fullName": "Sophia Martinez",
+				"gender": "Female",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Architect",
+				"contactInformation": {
+					"mobilePhone": "+1 456 789 0123",
+					"homePhone": "+1 456 789 0123",
+					"email": "sophia@email.com",
+					"address": "456 Pine Lane, Designville, 87654"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Travel Insurance",
+				"policyDescription": "Covers international travel risks",
+				"coverageAmount": "$50,000",
+				"deductible": "$200"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20231011-001",
+					"type": "Auto Insurance",
+					"status": "Active"
+				}
+			],
+			"quoteStatus": "Rejected",
+			"quoteBreakdown": {
+				"premiumAmount": "$75 per month",
+				"annualPremium": "$900",
+				"discounts": [{ "type": "Group Discount", "amount": "-$100" }],
+				"totalCharges": "$800",
+				"tax": "$15",
+				"finalPremium": "$815"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-06-01",
+				"expirationDate": "2025-05-31"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Travel Insurance Terms.pdf",
+					"proof": "Passport Copy.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "01-05-2023",
+					"description": "Application rejected due to pre-existing medical conditions."
+				}
+			]
+		},
+		{
+			"quoteId": "09872",
+			"type": "Life",
+			"personalDetails": {
+				"customerId": "CUST-11223",
+				"fullName": "Michael Johnson",
+				"gender": "Male",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Doctor",
+				"contactInformation": {
+					"mobilePhone": "+1 555 123 4567",
+					"homePhone": "+1 555 987 6543",
+					"email": "michael@email.com",
+					"address": "789 Oak Avenue, Medtown, 34567"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Family Health Insurance",
+				"policyDescription": "Comprehensive health coverage for family",
+				"coverageAmount": "$200,000",
+				"deductible": "$1,000"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20220115-001",
+					"type": "Dental Insurance",
+					"status": "Active"
+				}
+			],
+			"quoteStatus": "Approved",
+			"quoteBreakdown": {
+				"premiumAmount": "$450 per month",
+				"annualPremium": "$5,400",
+				"discounts": [
+					{
+						"type": "Medical Professional Discount",
+						"amount": "-$300"
+					}
+				],
+				"totalCharges": "$5,100",
+				"tax": "$75",
+				"finalPremium": "$5,175"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-03-15",
+				"expirationDate": "2025-03-14"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Health Insurance Terms.pdf",
+					"proof": "Medical Records.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "10-03-2023",
+					"description": "Application approved after medical review."
+				}
+			]
+		},
+		{
+			"quoteId": "09871",
+			"type": "Vehicle",
+			"personalDetails": {
+				"customerId": "CUST-44556",
+				"fullName": "Emily Chen",
+				"gender": "Female",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Financial Analyst",
+				"contactInformation": {
+					"mobilePhone": "+1 222 333 4444",
+					"homePhone": "+1 222 555 6666",
+					"email": "emily@email.com",
+					"address": "321 Maple Road, Financetown, 54321"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Luxury Auto Insurance",
+				"policyDescription": "Special coverage for high-value vehicles",
+				"coverageAmount": "$150,000",
+				"deductible": "$2,500"
+			},
+			"customerHistory": [],
+			"quoteStatus": "Pending",
+			"quoteBreakdown": {
+				"premiumAmount": "$350 per month",
+				"annualPremium": "$4,200",
+				"discounts": [
+					{ "type": "Anti-Theft Discount", "amount": "-$150" }
+				],
+				"totalCharges": "$4,050",
+				"tax": "$60",
+				"finalPremium": "$4,110"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-07-01",
+				"expirationDate": "2025-06-30"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Luxury Auto Terms.pdf",
+					"proof": "Vehicle Appraisal.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "15-06-2023",
+					"description": "Waiting for vehicle inspection results."
+				}
+			]
+		},
+		{
+			"quoteId": "09870",
+			"type": "Business",
+			"personalDetails": {
+				"customerId": "CUST-77889",
+				"fullName": "David Wilson",
+				"gender": "Male",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Restaurant Owner",
+				"contactInformation": {
+					"mobilePhone": "+1 777 888 9999",
+					"homePhone": "+1 777 111 2222",
+					"email": "david@email.com",
+					"address": "555 Food Street, Gastrotown, 67890"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Business Liability Insurance",
+				"policyDescription": "Covers business operations and customer injuries",
+				"coverageAmount": "$500,000",
+				"deductible": "$5,000"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20221201-001",
+					"type": "Property Insurance",
+					"status": "Active"
+				}
+			],
+			"quoteStatus": "Approved",
+			"quoteBreakdown": {
+				"premiumAmount": "$600 per month",
+				"annualPremium": "$7,200",
+				"discounts": [
+					{ "type": "Business Bundle Discount", "amount": "-$500" }
+				],
+				"totalCharges": "$6,700",
+				"tax": "$100",
+				"finalPremium": "$6,800"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-01-15",
+				"expirationDate": "2025-01-14"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Business Liability Terms.pdf",
+					"proof": "Business License.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "05-01-2023",
+					"description": "Policy approved with additional safety requirements."
+				}
+			]
+		},
+		{
+			"quoteId": "09869",
+			"type": "House",
+			"personalDetails": {
+				"customerId": "CUST-33445",
+				"fullName": "Sarah Thompson",
+				"gender": "Female",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Veterinary Technician",
+				"contactInformation": {
+					"mobilePhone": "+1 444 555 6666",
+					"homePhone": "+1 444 777 8888",
+					"email": "sarah@email.com",
+					"address": "888 Animal Lane, Petville, 12345"
+				}
+			},
+			"policyInformation": {
+				"policyType": "House Insurance",
+				"policyDescription": "Covers veterinary expenses for houses",
+				"coverageAmount": "$15,000",
+				"deductible": "$250"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20220915-001",
+					"type": "House Insurance",
+					"status": "Expired"
+				}
+			],
+			"quoteStatus": "Pending",
+			"quoteBreakdown": {
+				"premiumAmount": "$45 per month",
+				"annualPremium": "$540",
+				"discounts": [
+					{ "type": "Multi-Pet Discount", "amount": "-$50" }
+				],
+				"totalCharges": "$490",
+				"tax": "$10",
+				"finalPremium": "$500"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-08-01",
+				"expirationDate": "2025-07-31"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Pet Insurance Terms.pdf",
+					"proof": "Vet Records.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "20-07-2023",
+					"description": "Waiting for pet medical history from veterinarian."
+				}
+			]
+		},
+		{
+			"quoteId": "09868",
+			"type": "Travel",
+			"personalDetails": {
+				"customerId": "CUST-55667",
+				"fullName": "James Rodriguez",
+				"gender": "Male",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Pilot",
+				"contactInformation": {
+					"mobilePhone": "+1 999 888 7777",
+					"homePhone": "+1 999 666 5555",
+					"email": "james@email.com",
+					"address": "777 Skyway Boulevard, Aviator City, 98765"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Adventure Travel Insurance",
+				"policyDescription": "Special coverage for extreme sports and activities",
+				"coverageAmount": "$75,000",
+				"deductible": "$1,000"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20221110-001",
+					"type": "Travel Insurance",
+					"status": "Expired"
+				}
+			],
+			"quoteStatus": "Approved",
+			"quoteBreakdown": {
+				"premiumAmount": "$200 per month",
+				"annualPremium": "$2,400",
+				"discounts": [
+					{ "type": "Professional Discount", "amount": "-$200" }
+				],
+				"totalCharges": "$2,200",
+				"tax": "$35",
+				"finalPremium": "$2,235"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-09-01",
+				"expirationDate": "2025-08-31"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Adventure Travel Terms.pdf",
+					"proof": "Training Certificates.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "15-08-2023",
+					"description": "Policy approved with additional activity waivers."
+				}
+			]
+		},
+		{
+			"quoteId": "09867",
+			"type": "House",
+			"personalDetails": {
+				"customerId": "CUST-88990",
+				"fullName": "Jennifer Lee",
+				"gender": "Female",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Interior Designer",
+				"contactInformation": {
+					"mobilePhone": "+1 333 222 1111",
+					"homePhone": "+1 333 444 5555",
+					"email": "jennifer@email.com",
+					"address": "222 Decor Lane, Homestyle, 45678"
+				}
+			},
+			"policyInformation": {
+				"policyType": "High-Value Home Insurance",
+				"policyDescription": "Special coverage for luxury homes and contents",
+				"coverageAmount": "$1,000,000",
+				"deductible": "$10,000"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20230215-001",
+					"type": "Renters Insurance",
+					"status": "Expired"
+				}
+			],
+			"quoteStatus": "Rejected",
+			"quoteBreakdown": {
+				"premiumAmount": "$800 per month",
+				"annualPremium": "$9,600",
+				"discounts": [
+					{ "type": "Security System Discount", "amount": "-$400" }
+				],
+				"totalCharges": "$9,200",
+				"tax": "$140",
+				"finalPremium": "$9,340"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-04-01",
+				"expirationDate": "2025-03-31"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Luxury Home Terms.pdf",
+					"proof": "Home Appraisal.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "20-03-2023",
+					"description": "Application rejected due to high-risk location."
+				}
+			]
+		},
+		{
+			"quoteId": "09866",
+			"type": "Vehicle",
+			"personalDetails": {
+				"customerId": "CUST-11223",
+				"fullName": "Daniel Kim",
+				"gender": "Male",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "College Student",
+				"contactInformation": {
+					"mobilePhone": "+1 111 222 3333",
+					"homePhone": "+1 111 444 5555",
+					"email": "daniel@email.com",
+					"address": "123 Campus Drive, University Town, 23456"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Student Auto Insurance",
+				"policyDescription": "Affordable coverage for students with good grades",
+				"coverageAmount": "$25,000",
+				"deductible": "$1,000"
+			},
+			"customerHistory": [],
+			"quoteStatus": "Approved",
+			"quoteBreakdown": {
+				"premiumAmount": "$90 per month",
+				"annualPremium": "$1,080",
+				"discounts": [
+					{ "type": "Good Student Discount", "amount": "-$200" }
+				],
+				"totalCharges": "$880",
+				"tax": "$15",
+				"finalPremium": "$895"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-02-01",
+				"expirationDate": "2025-01-31"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Student Auto Terms.pdf",
+					"proof": "Transcript.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "25-01-2023",
+					"description": "Policy approved with maximum student discount."
+				}
+			]
+		},
+		{
+			"quoteId": "09865",
+			"type": "Business",
+			"personalDetails": {
+				"customerId": "CUST-33445",
+				"fullName": "Amanda Smith",
+				"gender": "Female",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Freelance Writer",
+				"contactInformation": {
+					"mobilePhone": "+1 666 777 8888",
+					"homePhone": "+1 666 999 0000",
+					"email": "amanda@email.com",
+					"address": "456 Creative Lane, Wordville, 34567"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Professional Liability Insurance",
+				"policyDescription": "Covers errors and omissions in professional work",
+				"coverageAmount": "$100,000",
+				"deductible": "$2,500"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20230520-001",
+					"type": "Health Insurance",
+					"status": "Active"
+				}
+			],
+			"quoteStatus": "Pending",
+			"quoteBreakdown": {
+				"premiumAmount": "$150 per month",
+				"annualPremium": "$1,800",
+				"discounts": [
+					{ "type": "Freelancer Discount", "amount": "-$100" }
+				],
+				"totalCharges": "$1,700",
+				"tax": "$25",
+				"finalPremium": "$1,725"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-06-15",
+				"expirationDate": "2025-06-14"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Professional Liability Terms.pdf",
+					"proof": "Business Registration.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "01-06-2023",
+					"description": "Application under review by underwriting team."
+				}
+			]
+		},
+		{
+			"quoteId": "09864",
+			"type": "Life",
+			"personalDetails": {
+				"customerId": "CUST-77889",
+				"fullName": "Thomas Brown",
+				"gender": "Male",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Retired",
+				"contactInformation": {
+					"mobilePhone": "+1 888 999 0000",
+					"homePhone": "+1 888 777 6666",
+					"email": "thomas@email.com",
+					"address": "789 Sunset Boulevard, Retireville, 56789"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Senior Health Insurance",
+				"policyDescription": "Comprehensive coverage for retirees",
+				"coverageAmount": "$150,000",
+				"deductible": "$2,000"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20210110-001",
+					"type": "Medicare Supplement",
+					"status": "Active"
+				}
+			],
+			"quoteStatus": "Approved",
+			"quoteBreakdown": {
+				"premiumAmount": "$350 per month",
+				"annualPremium": "$4,200",
+				"discounts": [
+					{ "type": "Healthy Lifestyle Discount", "amount": "-$300" }
+				],
+				"totalCharges": "$3,900",
+				"tax": "$60",
+				"finalPremium": "$3,960"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-05-01",
+				"expirationDate": "2025-04-30"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Senior Health Terms.pdf",
+					"proof": "Medical Exam Results.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "15-04-2023",
+					"description": "Policy approved after medical examination."
+				}
+			]
+		},
+		{
+			"quoteId": "09863",
+			"type": "Travel",
+			"personalDetails": {
+				"customerId": "CUST-99001",
+				"fullName": "Olivia Garcia",
+				"gender": "Female",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Flight Attendant",
+				"contactInformation": {
+					"mobilePhone": "+1 777 666 5555",
+					"homePhone": "+1 777 888 9999",
+					"email": "olivia@email.com",
+					"address": "321 Cloud Street, Skytown, 67890"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Annual Travel Insurance",
+				"policyDescription": "Year-round coverage for frequent travelers",
+				"coverageAmount": "$50,000",
+				"deductible": "$500"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20221215-001",
+					"type": "Travel Insurance",
+					"status": "Expired"
+				}
+			],
+			"quoteStatus": "Approved",
+			"quoteBreakdown": {
+				"premiumAmount": "$120 per month",
+				"annualPremium": "$1,440",
+				"discounts": [
+					{ "type": "Frequent Traveler Discount", "amount": "-$200" }
+				],
+				"totalCharges": "$1,240",
+				"tax": "$20",
+				"finalPremium": "$1,260"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-03-01",
+				"expirationDate": "2025-02-28"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Annual Travel Terms.pdf",
+					"proof": "Employment Verification.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "20-02-2023",
+					"description": "Policy approved with professional discount."
+				}
+			]
+		},
+		{
+			"quoteId": "09862",
+			"type": "Vehicle",
+			"personalDetails": {
+				"customerId": "CUST-22334",
+				"fullName": "William Taylor",
+				"gender": "Male",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Truck Driver",
+				"contactInformation": {
+					"mobilePhone": "+1 555 444 3333",
+					"homePhone": "+1 555 666 7777",
+					"email": "william@email.com",
+					"address": "987 Highway Road, Truckville, 45678"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Commercial Auto Insurance",
+				"policyDescription": "Coverage for work vehicles and trucks",
+				"coverageAmount": "$200,000",
+				"deductible": "$2,500"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20220820-001",
+					"type": "Personal Auto Insurance",
+					"status": "Active"
+				}
+			],
+			"quoteStatus": "Rejected",
+			"quoteBreakdown": {
+				"premiumAmount": "$500 per month",
+				"annualPremium": "$6,000",
+				"discounts": [
+					{ "type": "Safe Driver Discount", "amount": "-$300" }
+				],
+				"totalCharges": "$5,700",
+				"tax": "$85",
+				"finalPremium": "$5,785"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-07-15",
+				"expirationDate": "2025-07-14"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Commercial Auto Terms.pdf",
+					"proof": "CDL License.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "01-07-2023",
+					"description": "Application rejected due to recent accidents."
+				}
+			]
+		},
+		{
+			"quoteId": "09861",
+			"type": "House",
+			"personalDetails": {
+				"customerId": "CUST-44556",
+				"fullName": "Emma Wilson",
+				"gender": "Female",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Elementary Teacher",
+				"contactInformation": {
+					"mobilePhone": "+1 222 111 0000",
+					"homePhone": "+1 222 333 4444",
+					"email": "emma@email.com",
+					"address": "654 School Street, Educity, 34567"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Renters Insurance",
+				"policyDescription": "Covers personal property in rented homes",
+				"coverageAmount": "$50,000",
+				"deductible": "$500"
+			},
+			"customerHistory": [],
+			"quoteStatus": "Approved",
+			"quoteBreakdown": {
+				"premiumAmount": "$25 per month",
+				"annualPremium": "$300",
+				"discounts": [{ "type": "Teacher Discount", "amount": "-$50" }],
+				"totalCharges": "$250",
+				"tax": "$5",
+				"finalPremium": "$255"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-08-15",
+				"expirationDate": "2025-08-14"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Renters Insurance Terms.pdf",
+					"proof": "Lease Agreement.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "01-08-2023",
+					"description": "Policy approved with educator discount."
+				}
+			]
+		},
+		{
+			"quoteId": "09860",
+			"type": "House",
+			"personalDetails": {
+				"customerId": "CUST-66778",
+				"fullName": "Christopher Davis",
+				"gender": "Male",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Dog Trainer",
+				"contactInformation": {
+					"mobilePhone": "+1 444 333 2222",
+					"homePhone": "+1 444 555 6666",
+					"email": "chris@email.com",
+					"address": "123 Paw Avenue, Dogtown, 23456"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Pet Business Insurance",
+				"policyDescription": "Covers business operations for pet professionals",
+				"coverageAmount": "$100,000",
+				"deductible": "$1,000"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20230310-001",
+					"type": "Pet Insurance",
+					"status": "Active"
+				}
+			],
+			"quoteStatus": "Pending",
+			"quoteBreakdown": {
+				"premiumAmount": "$75 per month",
+				"annualPremium": "$900",
+				"discounts": [
+					{
+						"type": "Professional Certification Discount",
+						"amount": "-$100"
+					}
+				],
+				"totalCharges": "$800",
+				"tax": "$12",
+				"finalPremium": "$812"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-09-01",
+				"expirationDate": "2025-08-31"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Pet Business Terms.pdf",
+					"proof": "Training Certification.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "15-08-2023",
+					"description": "Application pending certification verification."
+				}
+			]
+		},
+		{
+			"quoteId": "09859",
+			"type": "Business",
+			"personalDetails": {
+				"customerId": "CUST-11223",
+				"fullName": "Jessica Miller",
+				"gender": "Female",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Yoga Instructor",
+				"contactInformation": {
+					"mobilePhone": "+1 999 000 1111",
+					"homePhone": "+1 999 222 3333",
+					"email": "jessica@email.com",
+					"address": "456 Zen Lane, Wellness City, 56789"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Wellness Business Insurance",
+				"policyDescription": "Covers yoga studios and wellness centers",
+				"coverageAmount": "$75,000",
+				"deductible": "$1,500"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20220405-001",
+					"type": "Health Insurance",
+					"status": "Active"
+				}
+			],
+			"quoteStatus": "Approved",
+			"quoteBreakdown": {
+				"premiumAmount": "$125 per month",
+				"annualPremium": "$1,500",
+				"discounts": [
+					{
+						"type": "Wellness Professional Discount",
+						"amount": "-$150"
+					}
+				],
+				"totalCharges": "$1,350",
+				"tax": "$20",
+				"finalPremium": "$1,370"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-10-01",
+				"expirationDate": "2025-09-30"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Wellness Business Terms.pdf",
+					"proof": "Yoga Certification.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "15-09-2023",
+					"description": "Policy approved with professional discount."
+				}
+			]
+		},
+		{
+			"quoteId": "09858",
+			"type": "Vehicle",
+			"personalDetails": {
+				"customerId": "CUST-33445",
+				"fullName": "Ryan Johnson",
+				"gender": "Male",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Delivery Driver",
+				"contactInformation": {
+					"mobilePhone": "+1 666 555 4444",
+					"homePhone": "+1 666 777 8888",
+					"email": "ryan@email.com",
+					"address": "789 Package Street, Delivery Town, 34567"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Rideshare Insurance",
+				"policyDescription": "Coverage for drivers using rideshare platforms",
+				"coverageAmount": "$75,000",
+				"deductible": "$1,000"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20230115-001",
+					"type": "Personal Auto Insurance",
+					"status": "Active"
+				}
+			],
+			"quoteStatus": "Pending",
+			"quoteBreakdown": {
+				"premiumAmount": "$180 per month",
+				"annualPremium": "$2,160",
+				"discounts": [
+					{ "type": "Safe Driver Discount", "amount": "-$100" }
+				],
+				"totalCharges": "$2,060",
+				"tax": "$30",
+				"finalPremium": "$2,090"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-11-01",
+				"expirationDate": "2025-10-31"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Rideshare Terms.pdf",
+					"proof": "Rideshare Partner Verification.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "20-10-2023",
+					"description": "Waiting for rideshare company verification."
+				}
+			]
+		},
+		{
+			"quoteId": "09857",
+			"type": "Travel",
+			"personalDetails": {
+				"customerId": "CUST-55667",
+				"fullName": "Nicole Anderson",
+				"gender": "Female",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Travel Blogger",
+				"contactInformation": {
+					"mobilePhone": "+1 333 444 5555",
+					"homePhone": "+1 333 222 1111",
+					"email": "nicole@email.com",
+					"address": "123 Wanderlust Lane, Globetrot City, 45678"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Digital Nomad Insurance",
+				"policyDescription": "Worldwide coverage for location-independent professionals",
+				"coverageAmount": "$100,000",
+				"deductible": "$1,000"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20221210-001",
+					"type": "Travel Insurance",
+					"status": "Expired"
+				}
+			],
+			"quoteStatus": "Approved",
+			"quoteBreakdown": {
+				"premiumAmount": "$150 per month",
+				"annualPremium": "$1,800",
+				"discounts": [
+					{ "type": "Long-Term Travel Discount", "amount": "-$200" }
+				],
+				"totalCharges": "$1,600",
+				"tax": "$25",
+				"finalPremium": "$1,625"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-12-01",
+				"expirationDate": "2025-11-30"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Digital Nomad Terms.pdf",
+					"proof": "Travel Itinerary.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "20-11-2023",
+					"description": "Policy approved with international coverage."
+				}
+			]
+		},
+		{
+			"quoteId": "09856",
+			"type": "Life",
+			"personalDetails": {
+				"customerId": "CUST-77889",
+				"fullName": "Kevin Wilson",
+				"gender": "Male",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Personal Trainer",
+				"contactInformation": {
+					"mobilePhone": "+1 888 777 6666",
+					"homePhone": "+1 888 999 0000",
+					"email": "kevin@email.com",
+					"address": "456 Fitness Avenue, Healthtown, 56789"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Athlete Health Insurance",
+				"policyDescription": "Specialized coverage for competitive athletes",
+				"coverageAmount": "$200,000",
+				"deductible": "$2,500"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20230220-001",
+					"type": "Health Insurance",
+					"status": "Active"
+				}
+			],
+			"quoteStatus": "Rejected",
+			"quoteBreakdown": {
+				"premiumAmount": "$300 per month",
+				"annualPremium": "$3,600",
+				"discounts": [
+					{
+						"type": "Professional Athlete Discount",
+						"amount": "-$400"
+					}
+				],
+				"totalCharges": "$3,200",
+				"tax": "$50",
+				"finalPremium": "$3,250"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-01-15",
+				"expirationDate": "2025-01-14"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Athlete Health Terms.pdf",
+					"proof": "Sports Physical.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "05-01-2023",
+					"description": "Application rejected due to recent sports injury."
+				}
+			]
+		},
+		{
+			"quoteId": "09855",
+			"type": "House",
+			"personalDetails": {
+				"customerId": "CUST-99001",
+				"fullName": "Rachel Green",
+				"gender": "Female",
+				"photo": "src/assets/photos/photo.png",
+				"occupation": "Artist",
+				"contactInformation": {
+					"mobilePhone": "+1 777 888 9999",
+					"homePhone": "+1 777 666 5555",
+					"email": "rachel@email.com",
+					"address": "123 Canvas Street, Artville, 67890"
+				}
+			},
+			"policyInformation": {
+				"policyType": "Art Studio Insurance",
+				"policyDescription": "Covers art supplies, equipment, and studio space",
+				"coverageAmount": "$75,000",
+				"deductible": "$1,000"
+			},
+			"customerHistory": [
+				{
+					"policyId": "P-20221115-001",
+					"type": "Renters Insurance",
+					"status": "Expired"
+				}
+			],
+			"quoteStatus": "Approved",
+			"quoteBreakdown": {
+				"premiumAmount": "$100 per month",
+				"annualPremium": "$1,200",
+				"discounts": [{ "type": "Artist Discount", "amount": "-$100" }],
+				"totalCharges": "$1,100",
+				"tax": "$17",
+				"finalPremium": "$1,117"
+			},
+			"expirationDates": {
+				"effectiveDate": "2024-02-01",
+				"expirationDate": "2025-01-31"
+			},
+			"supportingDocuments": [
+				{
+					"terms": "Art Studio Terms.pdf",
+					"proof": "Inventory List.pdf"
+				}
+			],
+			"activityLog": [
+				{
+					"date": "15-01-2023",
+					"description": "Policy approved with art professional discount."
+				}
+			]
+		}
+	]
+}

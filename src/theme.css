@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+
+@theme {
+	--font-primary: 'DM Sans', sans-serif;
+
+	--color-brand-primary: #032a44;
+	--color-brand-50: #033b5f;
+	--color-success-600: #16a34a;
+	--color-error-600: #dc2626;
+	--color-error-200: #fecaca;
+	--color-warning-800: #de944a;
+	--color-warning-200: #f6dcc5;
+	--color-neutral-50: #81909e;
+	--color-blue-20: #e0edff;
+	--color-blue-60: #1a94db;
+	--color-indigo-20: #e8e5ff;
+	--color-indigo-60: #8e80ff;
+	--color-pink-20: #fee6ef;
+	--color-pink-60: #fc45aa;
+	--color-teal-20: #e6fffb;
+	--color-teal-60: #26a195;
+	--color-gray-10: #f9fafb;
+	--color-gray-100: #e5e7ea;
+	--color-gray-200: #e5e7eb;
+	--color-gray-500: #596774;
+	--color-gray-600: #434d56;
+
+	--text-10: 10px;
+	--text-12: 12px;
+	--text-14: 14px;
+	--text-24: 24px;
+	--text-48: 48px;
+
+	--tracking-minus-1: -1px;
+
+	--spacing: 4px;
+
+	--radius-8: 8px;
+	--radius-12: 12px;
+	--radius-100: 100px;
+
+	--leading-133: 1.33;
+	--leading-115: 1.5;
+	--leading-116: 1.6;
+	--leading-117: 1.17;
+	--leading-20: 20px;
+}
+
+@layer utilities {
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+
+	.no-scrollbar {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+}
