@@ -15,7 +15,7 @@ Before you begin, ensure that you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/paper-nyt.git
+    git clone git@github.com:boris-gn/quotes-dashboard.git
     cd quotes-dashboard
     ```
 
